@@ -11,9 +11,11 @@ by the way, we're looking for contributors, if you'd like to help us on this pro
 
 
 and finally, here's a brief explanation on all the classes, and features this module offers.
-
-
-first of all, this module have 2 main classes, which are the layers and the neural network class.
+[class Layer]
+[class optimizer]
+[class Neural Network]
+[all existing activations]
+[all existing optimizers]
 
 # Layers
 

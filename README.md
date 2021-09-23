@@ -15,7 +15,7 @@ and finally, here's a brief explanation on all the classes, and features this mo
 * [class optimizer](https://github.com/Dragonrick123/Neural-Network-in-lua-Module/blob/general/README.md#optimizer)
 * [class Neural Network](https://github.com/Dragonrick123/Neural-Network-in-lua-Module/blob/general/README.md#neural-networks)
 * [all existing activations](https://github.com/Dragonrick123/Neural-Network-in-lua-Module/blob/general/README.md#all-existing-activations)
-* [all existing optimizers]()
+* [all existing optimizers](https://github.com/Dragonrick123/Neural-Network-in-lua-Module/blob/general/README.md#all-existing-optimizers)
 
 # Layers
 

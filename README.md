@@ -44,4 +44,23 @@ _changes the property activation of the layer_
 _returns a neural network object and stores it in a folder inside the module_
 * name typeof name must be a string
 * layers typeof layers must be a table with layer objects
-
+## NeuralNetwork.Train(inputs, outputs, optim, iterations, printq)
+_trains the neural network with the given inputs and outputs_
+* inputs typeof inputs must be a table with the inputs
+* outputs typeof outputs must be a table with the outputs
+* optim typeof optim must be a optimizer object
+* iterations typeof iterations must be a number, which will be the number of times the neural network will be trained
+* printq typeof printq must be a boolean value, it'll specify whether it should print the results after each iteration, or not
+## NeuralNetwork.TrainCompleted:Connect(function)
+_executes the function given, when the train is completed, must be fired after the Train function is called_
+* function typeof function must be a function
+## NeuralNetwork.TestBias(optim)
+_executes a test of the optimizer, based on the bias_
+* optim typeof optim must be a optimizer object
+## NeuralNetwork.TestWeights(optim)
+__executes a test of the optimizer, based on the weights_
+* optim typeof optim must be a optimizer object
+## NeuralNetwork.run(input, layer)
+_returns a guess based on the input, and the layer, pass "general" through the layer argument, to get a general prediction_
+* input typeof input must be a table with the inputs
+* layer typeof layer must be a layer object or "general" as stated before

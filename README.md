@@ -31,4 +31,4 @@ _returns a evaluated value based on the layers activation, the inputs, weights, 
 ## layer.ChangeActivation(NewActivation)
 _changes the property activation of the layer_
 * NewActivation typeof NewActivation must be a function
-###### keep in mind that layer.layer_think(inputs, weights, bias) will execute the activation, with the given arguments
+###### keep in mind that [layer.layer_think(inputs, weights, bias)](https://github.com/Dragonrick123/Neural-Network-in-lua-Module/blob/general/README.md#layerlayer_thinkinputs-weights-bias) will execute the activation, with the given arguments

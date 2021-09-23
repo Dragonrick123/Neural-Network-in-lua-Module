@@ -64,7 +64,7 @@ __executes a test of the optimizer, based on the weights_
 _returns a guess based on the input, and the layer, pass "general" through the layer argument, to get a general prediction_
 * input typeof input must be a table with the inputs
 * layer typeof layer must be a layer object or "general" as stated before
-##properties of class Neural Network
+## properties of class Neural Network
 * TestBias typeof TestBias is a function
 * TestWeights typeof TestWeights is a function
 * Train typeof train is a function

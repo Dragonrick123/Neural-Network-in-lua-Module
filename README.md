@@ -40,6 +40,7 @@ _changes the property activation of the layer_
 * ord (OrderOfActivation) typeof ord is a number
 
 # optimizer
+
 ###### **Note that optimizers self compute itselves**
 ## optimizer.Update(t, weights, bias, dw, db)
 _returns evaluated bias and weights_
@@ -57,6 +58,7 @@ _returns evaluated bias and weights_
 * eta typeof eta must be a decimal number between 0-1, usually known as learning rate
 
 # Neural Networks
+
 ## module.Create_neuronal_network(name, layers)
 _returns a neural network object and stores it in a folder inside the module_
 * name typeof name must be a string
@@ -90,3 +92,12 @@ _returns a guess based on the input, and the layer, pass "general" through the l
 * weights-1 typeof weights-1 is a table with all the previous weights
 * run typeof run is a function
 * layers typeof layers is a table with all the layer objects
+
+# all existing activations
+* tanh
+* sigmoid
+* relu
+* softmax
+
+#all existing optimizers
+* Adam

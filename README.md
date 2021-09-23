@@ -11,11 +11,11 @@ by the way, we're looking for contributors, if you'd like to help us on this pro
 
 
 and finally, here's a brief explanation on all the classes, and features this module offers.
-[class Layer]
-[class optimizer]
-[class Neural Network]
-[all existing activations]
-[all existing optimizers]
+[class Layer](https://github.com/Dragonrick123/Neural-Network-in-lua-Module/blob/general/README.md#layers)
+[class optimizer]()
+[class Neural Network]()
+[all existing activations]()
+[all existing optimizers]()
 
 # Layers
 

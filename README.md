@@ -39,6 +39,23 @@ _changes the property activation of the layer_
 * layer_think typeof layer_think is a function
 * ord (OrderOfActivation) typeof ord is a number
 
+# optimizer
+###### **Note that optimizers self compute itselves**
+## optimizer.Update(t, weights, bias, dw, db)
+_returns evaluated bias and weights_
+* t typeof t must be a number (iteration number, or/ known as time)
+* weights typeof weights must be a decimal number between 0-1
+* bias typeof bias must be a decimal number between 0-1
+* dw typeof dw must be a decimal number between 0-1 derivated from the weights
+* db typeof db must be a decimal number between 0-1 derivated from the bias
+## properties of class optimizer
+* m_dw typeof m_dw must be a decimal number between 0-1 derivated from the weights
+* m_db typeof n_db must be a decimal number between 0-1 derivated from the bias
+* beta1 typeof beta1 must be a decimal number used for optimization
+* beta2 typeof beta2 must be a decimal number used for optimization
+* epsilon typeof epsilon must be an insanely low number, for not dividing by 0
+* eta typeof eta must be a decimal number between 0-1, usually known as learning rate
+
 # Neural Networks
 ## module.Create_neuronal_network(name, layers)
 _returns a neural network object and stores it in a folder inside the module_
@@ -71,3 +88,5 @@ _returns a guess based on the input, and the layer, pass "general" through the l
 * TrainCompleted typeof TrainCompleted is a boolean, will be fired when the train is completed
 * bias-1 typeof bias-1 is a table with all the previous bias
 * weights-1 typeof weights-1 is a table with all the previous weights
+* run typeof run is a function
+* layers typeof layers is a table with all the layer objects

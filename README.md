@@ -21,7 +21,8 @@ and finally, here's a brief explanation on all the classes, and features this mo
 
 * [class Neural Network](https://github.com/Dragonrick123/Neural-Network-in-lua-Module/blob/general/README.md#neural-networks)
   - [Create_neural_network](https://github.com/Dragonrick123/Neural-Network-in-lua-Module/blob/general/README.md#modulecreate_neuronal_networkname-layers)
-
+  - [Train](https://github.com/Dragonrick123/Neural-Network-in-lua-Module/blob/general/README.md#neuralnetworktraininputs-outputs-optim-iterations-printq)
+  
 * [all existing activations](https://github.com/Dragonrick123/Neural-Network-in-lua-Module/blob/general/README.md#all-existing-activations)
 
 * [all existing optimizers](https://github.com/Dragonrick123/Neural-Network-in-lua-Module/blob/general/README.md#all-existing-optimizers)

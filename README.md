@@ -60,7 +60,7 @@ _returns evaluated bias and weights_
 * eta typeof eta must be a decimal number between 0-1, usually known as learning rate
 
 # Neural Networks
-
+![simple](https://github.com/Dragonrick123/Neural-Network-in-lua-Module/blob/general/Images/simpleExample.png)
 ## module.Create_neuronal_network(name, layers)
 _returns a neural network object and stores it in a folder inside the module_
 * name typeof name must be a string

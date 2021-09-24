@@ -42,7 +42,7 @@ _changes the property activation of the layer_
 * ord (OrderOfActivation) typeof ord is a number
 
 # optimizer
-
+![am pro]()
 ###### **Note that optimizers self compute itselves**
 ## optimizer.Update(t, weights, bias, dw, db)
 _returns evaluated bias and weights_
@@ -96,6 +96,7 @@ _returns a guess based on the input, and the layer, pass "general" through the l
 * layers typeof layers is a table with all the layer objects
 
 # all existing activations
+![o](https://github.com/Dragonrick123/Neural-Network-in-lua-Module/blob/general/Images/activations.png)
 * tanh
 * sigmoid
 * relu

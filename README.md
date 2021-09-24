@@ -12,6 +12,7 @@ by the way, we're looking for contributors, if you'd like to help us on this pro
 
 and finally, here's a brief explanation on all the classes, and features this module offers.
 * [class Layer](https://github.com/Dragonrick123/Neural-Network-in-lua-Module/blob/general/README.md#layers)
+  - [CreateLayer](https://github.com/Dragonrick123/Neural-Network-in-lua-Module#modulelayerscreatelayername-orderofactivation-activation)
 * [class optimizer](https://github.com/Dragonrick123/Neural-Network-in-lua-Module/blob/general/README.md#optimizer)
 * [class Neural Network](https://github.com/Dragonrick123/Neural-Network-in-lua-Module/blob/general/README.md#neural-networks)
 * [all existing activations](https://github.com/Dragonrick123/Neural-Network-in-lua-Module/blob/general/README.md#all-existing-activations)

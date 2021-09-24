@@ -15,9 +15,13 @@ and finally, here's a brief explanation on all the classes, and features this mo
   - [CreateLayer](https://github.com/Dragonrick123/Neural-Network-in-lua-Module#modulelayerscreatelayername-orderofactivation-activation)
   - [layer_think](https://github.com/Dragonrick123/Neural-Network-in-lua-Module/blob/general/README.md#layerlayer_thinkinputs-weights-bias)
   - [ChangeActivation](https://github.com/Dragonrick123/Neural-Network-in-lua-Module/blob/general/README.md#layerchangeactivationnewactivation)
+
+
+
 * [class optimizer](https://github.com/Dragonrick123/Neural-Network-in-lua-Module/blob/general/README.md#optimizer)
   - [Update](https://github.com/Dragonrick123/Neural-Network-in-lua-Module/blob/general/README.md#optimizerupdatet-weights-bias-dw-db)
 * [class Neural Network](https://github.com/Dragonrick123/Neural-Network-in-lua-Module/blob/general/README.md#neural-networks)
+  - [Create_Neural_Network](https://github.com/Dragonrick123/Neural-Network-in-lua-Module/blob/general/README.md#modulecreate_neuronal_networkname-layers)
 * [all existing activations](https://github.com/Dragonrick123/Neural-Network-in-lua-Module/blob/general/README.md#all-existing-activations)
 * [all existing optimizers](https://github.com/Dragonrick123/Neural-Network-in-lua-Module/blob/general/README.md#all-existing-optimizers)
 

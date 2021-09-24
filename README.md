@@ -25,6 +25,7 @@ and finally, here's a brief explanation on all the classes, and features this mo
   - [TrainCompleted:Connect](https://github.com/Dragonrick123/Neural-Network-in-lua-Module/blob/general/README.md#neuralnetworktraincompletedconnectfunction)
   - [TestBias](https://github.com/Dragonrick123/Neural-Network-in-lua-Module/blob/general/README.md#neuralnetworktestbiasoptim)
   - [TestWeights](https://github.com/Dragonrick123/Neural-Network-in-lua-Module/blob/general/README.md#neuralnetworktestweightsoptim)
+  - [run](https://github.com/Dragonrick123/Neural-Network-in-lua-Module/blob/general/README.md#neuralnetworkruninput-layer)
   
 * [all existing activations](https://github.com/Dragonrick123/Neural-Network-in-lua-Module/blob/general/README.md#all-existing-activations)
 

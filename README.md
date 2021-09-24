@@ -18,7 +18,7 @@ and finally, here's a brief explanation on all the classes, and features this mo
 * [all existing optimizers](https://github.com/Dragonrick123/Neural-Network-in-lua-Module/blob/general/README.md#all-existing-optimizers)
 
 # Layers
-
+![example layer](https://github.com/Dragonrick123/Neural-Network-in-lua-Module/blob/general/Images/layers.png)
 ## module.Layers.CreateLayer(name, orderOfActivation, Activation)
 _returns a layer object and stores it in a cache folder inside the module until being injected in a neural network object_
 * name typeof name must be a string

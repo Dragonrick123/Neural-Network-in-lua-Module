@@ -5,8 +5,8 @@ after some serious time developing this, I have come with a simple module for cr
 as you can see it only takes 4-5 lines to actually start training a neural network using this module!.
 
 More about this:
-this started as a project I started by myself, it is inspired on [brain.js](https://github.com/BrainJS), and [keras](https://github.com/keras-team/keras)
-by the way, we're looking for contributors, if you'd like to help us on this project, let me know, my discord is Eyeless.#4808
+- this started as a project I started by myself, it is inspired on [brain.js](https://github.com/BrainJS), and [keras](https://github.com/keras-team/keras)
+also, we're looking for contributors, if you'd like to help us on this project, let me know, my discord is Eyeless.#4808
 
 
 

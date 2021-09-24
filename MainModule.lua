@@ -37,6 +37,12 @@ function ia.less2dArray(x, y)
 end
 local function check(a, b) return a[b] end
 local DotProduct = ia.DotProduct
+function ia.compute_loss(x)
+	return x^2-2*x+1
+end
+function ia.grad(x)
+	return 2*x-2
+end
 local function compute_Adam()
 	ia.optim.Adam["m_dw"], ia.optim.Adam["v_dw"] = 0, 0
 	ia.optim.Adam["m_db"], ia.optim.Adam["v_db"] = 0, 0
@@ -45,12 +51,6 @@ local function compute_Adam()
 	ia.optim.Adam["epsilon"] = 1e-8
 	ia.optim.Adam["eta"] = 0.01
 end compute_Adam()
-function ia.compute_loss(x)
-	return x^2-2*x+1
-end
-function ia.grad(x)
-	return 2*x-2
-end
 --//
 function ia.optim.Adam.Update(t, weights, bias, dw, db)
 	local self = ia.optim.Adam
@@ -108,12 +108,19 @@ function ia.activations.deriv.sigmoid_derivate(x)
 	return res
 end
 --//
+function ia.ComputeActivation(Activation)
+	if typeof(Activation) == "function" then
+	return Activation else
+		return ia.activations[Activation] or ia.activations.deriv[Activation]
+	end
+end
+--//
 local folder_of_layers = ia.layers
 --//
 function ia.layers.Create_Layer(name, ord, Activation)
 	local function computeSelf()
 		folder_of_layers[name] = {};
-		folder_of_layers[name]["Activation"] = Activation
+		folder_of_layers[name]["Activation"] = ia.ComputeActivation(Activation)
 		folder_of_layers[name]["ord"] = ord
 	end computeSelf()
 	local self = folder_of_layers[name]

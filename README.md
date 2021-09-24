@@ -37,7 +37,7 @@ and finally, here's a brief explanation on all the classes, and features this mo
 _returns a layer object and stores it in a cache folder inside the module until being injected in a neural network object_
 * name typeof name must be a string
 * orderOfActivation typeof orderOfActivaction must be a number, you can't skip numbers; 1-x
-* Activation typeof Activation must be a function, the module functions library of activations are stored inside module.activations
+* Activation typeof Activation must be a function, the module functions library of activations are stored inside module.activations, you can also pass a string with the activation, for e.g `module.layers.Create_Layer("my layer", 1, "relu")`
 ## layer.layer_think(inputs, weights, bias)
 _returns a evaluated value based on the layers activation, the inputs, weights, and bias_
 * inputs typeof inputs must be a table

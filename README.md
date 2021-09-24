@@ -42,7 +42,7 @@ _changes the property activation of the layer_
 * ord (OrderOfActivation) typeof ord is a number
 
 # optimizer
-![am pro]()
+![am pro](https://github.com/Dragonrick123/Neural-Network-in-lua-Module/blob/general/Images/optimizers.png)
 ###### **Note that optimizers self compute itselves**
 ## optimizer.Update(t, weights, bias, dw, db)
 _returns evaluated bias and weights_

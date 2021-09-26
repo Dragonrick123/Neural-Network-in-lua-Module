@@ -1,3 +1,4 @@
+--!nonstrict
 local ia = {
 	optim = {
 		Adam = {};

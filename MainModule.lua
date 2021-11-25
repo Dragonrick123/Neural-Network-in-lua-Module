@@ -266,6 +266,7 @@ function ia.Create_neuronal_network(name, layers)
 			task.wait(0.004)
 		end
 	end
+	
 	--//
 	return self
 end
